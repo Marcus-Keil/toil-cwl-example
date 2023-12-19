@@ -1,5 +1,5 @@
 # toil cwl singularity issue example
-This repository serves to aid in figuring out issues on why toil-cwl-runner seems to ignore the singularity image we attempt to give it.
+This repository serves to aid in figuring out issues on why toil-cwl-runner seems to ignore the singularity image we attempt to give it. It is meant to go along with this [stackoverflow post](https://stackoverflow.com/questions/77684785/toil-cwl-runner-not-using-default-container-option-with-singularity-option), and will be updated when an answer is found. Updates resulting from this post will be obviously marked and noted at the end of the readme.
 
 ## Version to reproduce issue
 Current versions of software and OS we are using.
