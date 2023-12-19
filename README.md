@@ -1,4 +1,4 @@
-# toil-cwl-example
+# toil cwl singularity issue example
 This repository serves to aid in figuring out issues on why toil-cwl-runner seems to ignore the singularity image we attempt to give it.
 
 ## Version to reproduce issue
