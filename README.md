@@ -3,12 +3,12 @@ This repository serves to aid in figuring out issues on why toil-cwl-runner seem
 
 ## Version to reproduce issue
 
-Main OS: Ubuntu 22.04
-Singularity Image OS: 20.04 (Intentionally different to test container usage)
-Singularity Version: 3.9.2
-toil Version: 5.12.0
-CWLTool Version: 3.1.20230601100705
-Python Version: 3.9.18
+- Main OS: Ubuntu 22.04
+- Singularity Image OS: 20.04 (Intentionally different to test container usage)
+- Singularity Version: 3.9.2
+- toil Version: 5.12.0
+- CWLTool Version: 3.1.20230601100705
+- Python Version: 3.9.18
 
 ## Setting up
 
