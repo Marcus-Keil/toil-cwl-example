@@ -1,0 +1,20 @@
+add-script:
+  class: File
+  path: ./addition.py
+multiply-script:
+  class: File
+  path: ./multiplication.py
+add-args:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+multiply-args:
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
