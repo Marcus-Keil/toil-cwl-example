@@ -21,7 +21,7 @@ replace <imageName> with any preferred image name.
 
 Change export.source file to reflect where singularity.sif is
 ```
-export SINGULARITY_CACHEDIR=<PATH/TO/SINGULARITY.SIF/DIRECTORY>
+export SINGULARITY_CACHEDIR=<Path/to/Singularity/.sif>
 ```
 
 export all these variables into current shell session
