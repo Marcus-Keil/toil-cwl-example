@@ -14,7 +14,7 @@ Python Version: 3.9.18
 
 Set build singularity .sif file 
 ```
-$ singularity build --fakeroot <imageName>.sif singularity.def
+singularity build --fakeroot <imageName>.sif singularity.def
 ```
 replace <imageName> with any preferred image name.
 
@@ -25,7 +25,7 @@ export SINGULARITY_CACHEDIR=<PATH/TO/SINGULARITY.SIF/DIRECTORY>
 
 export all these variables into current shell session
 ```
-$ source exports.source
+source exports.source
 ```
 
 ## Expected behaviour
@@ -33,7 +33,7 @@ $ source exports.source
 With cwltool, the command to call the workflow in the expected way is
 
 ```
-$ cwltool --singularity --default-container <imageName> workflow.cwl parameters.yaml
+cwltool --singularity --default-container <imageName> workflow.cwl parameters.yaml
 ```
 Here, "--default-container" is used by cwltool to run all cwl files not labled as workflows with the singularity runner due to the "--singularity" option. This results in the creation of two files, if nothing is change z_output.txt should have 'The result is 15120.0' printed in it, and z_version.txt should have:
 
