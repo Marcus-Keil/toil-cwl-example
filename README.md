@@ -59,5 +59,5 @@ When this is now used with toil-cwl-runner, we would expect the same behaviour, 
 ```
 toil-cwl-runner --jobStore <jobstoreName> --singularity --default-container <imageName> workflow.cwl parameters.yaml
 ```
-where again, the "--singularity" and "--default-container" option are used, which toil-cwl-runner states are valid options. However, the results that are printed in the z_version.txt file represents the current operating system being used by the user. In our case "Ubuntu 22.04". 
+where again, the "--singularity" and "--default-container" option are used, which toil-cwl-runner states are valid options. However, the results that are printed in the z_version.txt file represents the current operating system being used by the user. In our case "Ubuntu 22.04". One thing to note is that for some reason cwltool will replace the output files if they exist, but toil-cwl-runner does not replace the files if they already exists, so if cwltool is run first, please ensure you at least delete 'z_version.txt' so to get the results as printed by toil-cwl-runner.
 
